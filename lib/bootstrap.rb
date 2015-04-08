@@ -1,8 +1,8 @@
 require 'bundler'
 Bundler.require
 
-ENV['KEY_POOL'] = '[{"keyId":"sample_v1","secret":"development_secret","acceptOnly":0}]'
-ENV['SAMPLE_KEYID'] = 'sample'
+ENV['KEY_POOL'] = '[{"keyId":"EscherExample","secret":"TheBeginningOfABeautifulFriendship","acceptOnly":0}]'
+ENV['ESCHEREXAMPLE_KEYID'] = 'EscherExample'
 
 CredentialScope = 'example/credential/scope'
 AuthOptions = {}

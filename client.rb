@@ -12,7 +12,7 @@ request_data = {
     headers: [['Content-Type', 'application/json'], ['host', 'localhost']]
 }
 
-escher.sign!(request_data, Escher::Keypool.new.get_active_key('sample'))
+escher.sign!(request_data, Escher::Keypool.new.get_active_key('escherexample'))
 
 request = Net::HTTP::Get.new('/')
 request_data[:headers].each do |header|
